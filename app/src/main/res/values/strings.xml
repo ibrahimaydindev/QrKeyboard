@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">QrKeyboard</string>
+    <string name="class_name">ScSoft Keyboard</string>
+    <string name="subtype_en_US">English (US)</string>
+    <string name="dialog_yes">Yes </string>
+    <string name="dialog_no">No</string>
+</resources>
