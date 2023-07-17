@@ -151,6 +151,9 @@ class QrActivity : AppCompatActivity() {
             if (!qrResult.isNullOrEmpty()) {
                 var editext = findViewById<EditText>(R.id.ediTtext)
                 editext.setText(qrResult)
+                //This code solution but it doesn't work
+                //val ic: InputConnection = getCurrentInputConnection();
+                //ic.commitText(qrResult, 1);
             }
         }
     }
